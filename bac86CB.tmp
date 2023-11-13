@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://bchkko1iobr10"]
+
+[ext_resource type="PackedScene" uid="uid://dwl4vxm3mbxbe" path="res://drop_body.tscn" id="1_g5axn"]
+[ext_resource type="PackedScene" uid="uid://bfbptw4l0jnky" path="res://object.tscn" id="2_syjbo"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1149.0
+offset_bottom = 645.0
+color = Color(1, 0, 1, 1)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("1_g5axn")]
+position = Vector2(221, 247)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("1_g5axn")]
+position = Vector2(853, 179)
+
+[node name="StaticBody2D3" parent="." instance=ExtResource("1_g5axn")]
+position = Vector2(402, 79)
+
+[node name="StaticBody2D4" parent="." instance=ExtResource("1_g5axn")]
+position = Vector2(570, 413)
+
+[node name="StaticBody2D5" parent="." instance=ExtResource("1_g5axn")]
+position = Vector2(288, 423)
+
+[node name="object" parent="." instance=ExtResource("2_syjbo")]
+position = Vector2(293, 415)

@@ -1,0 +1,10 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1699881589
+background.tscn::PackedScene::2541874818988366649::1699757590::0::1::::<><>::uid://dwl4vxm3mbxbe::::res://drop_body.tscn<>uid://bfbptw4l0jnky::::res://object.tscn
+drop_body.tscn::PackedScene::8727924288735903562::1699757590::0::1::::<><>::res://platform.gd
+icon.svg::CompressedTexture2D::8333447113506259542::1699391020::1699391028::1::::<><>::
+object.gd::GDScript::-1::1699692529::0::1::::<>Node2D<>::
+object.tscn::PackedScene::2740375165459611160::1699759992::0::1::::<><>::res://object.gd<>uid://dqy1wk3h20151::::res://icon.svg
+platform.gd::GDScript::-1::1699692558::0::1::::<>StaticBody2D<>::
+::res://Global/::1699686419
+global.gd::GDScript::-1::1699561572::0::1::::<>Node<>::
